@@ -4,6 +4,8 @@
   "outputfilename": "wails-tutorial",
   "frontend:install": "npm install",
   "frontend:build": "npm run build",
+  "frontend:fmt": "biome format ./frontend/src --write",
+  "frontend:lint": "biome lint -- apply ./frontend/src",
   "frontend:dev:watcher": "npm run dev",
   "frontend:dev:serverUrl": "auto",
   "author": {
